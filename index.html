@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <title>Secure Password</title>
+  </head>
+  <body>
+    <header>
+      <h1>Secure Password</h1>
+    </header>
+    <main>
+      <h2>Generate a <span class="nxtLine">random password</span></h2>
+      <p>Never use an insecure passowrd again.</p>
+      <button id="password-el" class="gntPasswordBtn" onclick="gntPassword()">
+        Generate Password
+      </button>
+      <hr />
+      <button class="showPassword passowrdBtn">0</button>
+      <button class="passowrdBtn example">eg: >Wij@veiPUwK</button>
+    </main>
+    <footer>
+      <p>
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Harshal Surwase, All Rights Reserved.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
